@@ -39,6 +39,10 @@ body{
   padding: 40px 80px;
 }
 
+.section-m1 {
+  margin: 40px 0;
+}
+
 /* Text Effect */
 #effect {
   margin: 0;
@@ -47,14 +51,14 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e3e6f3;
+  background-color: #000;
 }
 
 #texteffect {
   position: relative;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, #e3e6f3, #1a1a1a, #e3e6f3);
+  background: linear-gradient(90deg, #000, #fff, #000);
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 5s linear infinite;
@@ -151,7 +155,7 @@ body{
   color: #088178;
 }
 
-/* Feature */
+/* Feature Product */
 #product1 {
   text-align: center;
 }
@@ -473,6 +477,68 @@ footer .copyright {
 
 /* Shop */
 
+#prodetails {
+  display: flex;
+  margin-top: 20px;
+  
+}
+
+#prodetails .single-pro-image {
+  width: 40%;
+  margin-right:  50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+  border: 1px solid #cce7d0;
+}
+
+#prodetails .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 43px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus{
+  outline: none;
+}
+#prodetails .single-pro-details button{
+  padding: 12px 10px;
+  background-color: #088178;
+  color: white;
+}
+#prodetails .single-pro-details span{
+  line-height: 25px;
+}
+
 #pagination {
   text-align: center;
 }
@@ -489,6 +555,7 @@ footer .copyright {
   font-size: 16px;
   font-weight: 600;
 }
+
 
 /* Blog */
 #page-header.blog-header{
